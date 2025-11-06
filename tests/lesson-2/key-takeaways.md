@@ -157,4 +157,11 @@ Ex:
     }
 
 # Knowledge
-- Website for understand git workflow and command: [Learn git branching](https://learngitbranching.js.org/)
+- Git: Website for understand git workflow and command: [Learn git branching](https://learngitbranching.js.org/)
+- Javascript:
+    - **Arithmetic operator**:  ****Returns the remainder left over (Ex: 3%2=1)
+    - **console.log()**:
+        - console.log(”message: ” + variable_name)
+        - console.log(”message: ” , variable_name)
+    - **Combine string**: using +
+        - console.log(str1 + str2)
