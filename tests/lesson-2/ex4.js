@@ -13,13 +13,13 @@ let maxWeight = modHeight;
 let minWeight = (modHeight * 8) / 10;
 
 console.log(
-  "With ",
+  "With",
   heightInput,
-  "cm, your ideal, max and min weight sequentially are: ",
+  "cm, your ideal, max and min weight sequentially are:",
   idealWeight,
-  "kg ",
+  "kg",
   maxWeight,
-  "kg ",
+  "kg",
   minWeight,
   "kg"
 );
