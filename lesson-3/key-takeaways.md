@@ -7,8 +7,12 @@
     
     ```csharp
     git commit --amend
-    ```
-    
+
+    - Change the most recent commit message directly
+        
+        ```csharp
+        git commit --amend -m "message"
+        ```    ```
 
 - **Move file from staging to working directory:**
     
