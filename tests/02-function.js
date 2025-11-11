@@ -111,7 +111,7 @@
 
 // function updateEmail(name, newEmail) {
 //   for (let i = 0; i < userInfo.length; i++) {
-//     if (userInfo[i].name == name) {
+//     if (userInfo[i].name === name) {
 //       userInfo[i].email = newEmail;
 //     }
 //   }
