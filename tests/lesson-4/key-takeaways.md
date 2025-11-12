@@ -67,6 +67,14 @@ Ex:
     // Expected output: "c"
     ```
     
+- **map()**:  creates a new array from calling a function for every array element.
+    
+    ```csharp
+    const multipleArr = inputArr.map(item => item * 2);
+    console.log(multipleArr);
+    ```
+    
+
 ## Break and Continue
 
 - **Break:**  Immediately exits the nearest enclosing loop
@@ -90,4 +98,22 @@ Ex:
         }
         console.log(i);
     }
+    ```
+
+# Array
+- **string is an array:** use str.length to get the length of string and get each element in string base on index
+    
+    ```csharp
+    const str = "K9 2024";
+    for (let i = 0; i < str.length; i++){
+    console.log(str[i]);
+    }
+    // Output
+    K
+    6
+    
+    2
+    0
+    2
+    4
     ```
