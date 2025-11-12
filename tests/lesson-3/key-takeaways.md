@@ -20,7 +20,7 @@
     git restore --staged <file>
     ```
     
-- **Move commit from repo to working directory**
+- **Reset current branch to the latest commit (HEAD) and discard all uncommitted changes in both the working directory and the staging area.**
     ```csharp
     git reset HEAD~<number of commit>
     ```
@@ -57,7 +57,7 @@ console.log(‘Toi la Nga’);
 
 console.log(“Toi la Phong”);
 
-console.log(${variable_name});
+console.log(`${variable_name}`);
 let name = “Nga”;
 
 console.log(`Toi la ${name}`);
