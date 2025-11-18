@@ -101,7 +101,7 @@ Ex:
     ```
 
 # Array
-- **string is an array:** use str.length to get the length of string and get each element in string base on index
+- **string like an array:** use str.length to get the length of string and get each element in string base on index
     
     ```csharp
     const str = "K9 2024";
@@ -118,22 +118,6 @@ Ex:
     4
     ```
 
-- **string is an array:** use str.length to get the length of string and get each element in string base on index
-    
-    ```csharp
-    const str = "K9 2024";
-    for (let i = 0; i < str.length; i++){
-    console.log(str[i]);
-    }
-    // Output
-    K
-    6
-    
-    2
-    0
-    2
-    4
-    ```
     
 - **unshift()**: adds new elements to **the beginning** of an array.
     
