@@ -2,14 +2,14 @@
 // cho trước. Ví dụ với mảng [1, 2, 3, 4, 3, 55, 23] và giá trị cho trước là
 // 3 thì vị trí cần in ra đầu tiên là 2 và vị trí cuối cùng cần in ra là 4.
 
-const inputArr = [1, 2, 3, 4, 3, 55, 23];
-const inputval = 3;
+// const inputArr = [1, 2, 3, 4, 3, 55, 23];
+// const inputval = 3;
 
-for (const [index, value] of inputArr.entries()) {
-  if (value === inputval) {
-    console.log(index - 1, index + 1);
-  }
-}
+// for (const [index, value] of inputArr.entries()) {
+//   if (value === inputval) {
+//     console.log(index - 1, index + 1);
+//   }
+// }
 
 // 2. Tạo mảng chứa các kí tự nghịch đảo từ một chuỗi đã cho. Ví dụ với chuỗi
 // ”Playwright” thì mảng kết quả sẽ là [“t”, “h”, “g”, “i”, “r”, “w”,
